@@ -1,0 +1,2 @@
+images/sample_01.png
+images/sample_02.png
