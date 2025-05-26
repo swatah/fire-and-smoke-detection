@@ -26,6 +26,7 @@ include_directories(
     /home/luckfox/rknn_toolkit2/rknpu2/examples/3rdparty/rga/include
     /home/luckfox/rknn_toolkit2/rknpu2/examples/3rdparty/stb
     /home/luckfox/rknn_model_zoo/3rdparty/jpeg_turbo/include
+    /home/rknn_toolkit2/rknpu2/runtime/Linux/librknn_api/include/
     /home/luckfox/rknn_model_zoo/utils
     /home/luckfox/Downloads/luckfox_pico_rknn_example/utils
 )
@@ -40,7 +41,8 @@ link_directories(
 # Source files
 set(SOURCES
     main.cc
-    smoke_model.c
+    smoke_model.cc
+    postprocess.cc
     /home/luckfox/Downloads/luckfox_pico_rknn_example/utils/image_utils.c
     /home/luckfox/Downloads/luckfox_pico_rknn_example/utils/file_utils.c
     /home/luckfox/Downloads/luckfox_pico_rknn_example/utils/image_drawing.c
