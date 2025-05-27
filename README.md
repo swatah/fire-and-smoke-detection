@@ -23,6 +23,7 @@ The model(onnx) outputs a list of detections, where each detection includes:
  git clone https://github.com/LuckfoxTECH/luckfox-pico/tree/main
 
  # C++ build instruction using cmake
+ ## Replace the luckfox username with your username in the CMakeLists.txt before compiling
  ```
   cd ~/{PATH}/fire-and-smoke-detection
   mkdir build && cd build
