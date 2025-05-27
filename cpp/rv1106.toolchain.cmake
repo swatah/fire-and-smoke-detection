@@ -5,7 +5,7 @@ SET(CMAKE_SYSTEM_PROCESSOR arm)
 
 # Path to the toolchain binaries
 SET(TOOLCHAIN_PREFIX arm-rockchip830-linux-uclibcgnueabihf)
-SET(TOOLCHAIN_PATH /home/luckfox/rknn_model_zoo/examples/yolox/python/rknn-toolkit2/rknpu2/examples/rv1006/arm-rockchip830-linux-uclibcgnueabihf/bin)
+SET(TOOLCHAIN_PATH /home/{user}/{Path-to-luckfox-sdk}/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin)
 
 # Compilers
 SET(CMAKE_C_COMPILER ${TOOLCHAIN_PATH}/${TOOLCHAIN_PREFIX}-gcc)
