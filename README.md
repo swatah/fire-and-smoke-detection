@@ -24,6 +24,7 @@ The model(onnx) outputs a list of detections, where each detection includes:
 
  # C++ build instruction using cmake
  ## Replace the luckfox username with your username in the CMakeLists.txt before compiling
+ ## Replace the SET(TOOLCHAIN_PATH /home/{user}/{Path-to-luckfox-sdk}/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin) of cmake.toolchain to proper luckfox sdk path
  ```
   cd ~/{PATH}/fire-and-smoke-detection
   mkdir build && cd build
