@@ -18,7 +18,7 @@ if (TARGET_SOC STREQUAL "rv1106")
 endif()
 
 # Sysroot and library linker flags
-set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -L/home/luckfox/rknn_model_zoo/examples/yolox/python/rknn-toolkit2/rknpu2/examples/rv1006/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/home/luckfox/rknn_model_zoo/3rdparty/rknpu2/Linux/armhf-uclibc -Wl,-rpath-link,/home/luckfox/rknn_model_zoo/examples/yolox/python/rknn-toolkit2/rknpu2/examples/rv1006/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -L/{PATH}/rknn-toolkit2/rknpu2/examples/rv1006/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib -L/{PATH}/rknn_model_zoo/3rdparty/rknpu2/Linux/armhf-uclibc -Wl,-rpath-link,/{PATH}rknn-toolkit2/rknpu2/examples/rv1006/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/lib")
 
 # Include directories
 include_directories(
